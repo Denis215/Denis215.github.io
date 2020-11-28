@@ -1,0 +1,30 @@
+*{
+	padding:0;
+    margin:0;
+box-sizing: border-box;
+}
+main{
+	width: 70%;
+	margin: auto;
+	padding: 50px;
+	display: flex;	
+	flex-wrap: wrap;
+	justify-content: center;
+	background-color: #fff;
+}
+
+body{
+	background-color: #efefef;
+}
+.photo{
+		width:calc(50% - 40px);
+		height:calc((35vw - 40px) /16 * 9);
+	    margin: 20px;
+	    background: orange;
+}
+h1{
+	width: 100%;
+	text-align:  center;
+	float-size:48px;
+}
+
